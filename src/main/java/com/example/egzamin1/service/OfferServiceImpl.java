@@ -1,11 +1,11 @@
 package com.example.egzamin1.service;
 
+import com.example.egzamin1.Service;
 import com.example.egzamin1.dto.OfferDto;
 import com.example.egzamin1.entity.OfferEntity;
 import com.example.egzamin1.repository.OfferRepository;
 import java.util.List;
 import lombok.AllArgsConstructor;
-import org.springframework.stereotype.Service;
 
 @Service
 @AllArgsConstructor

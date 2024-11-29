@@ -13,7 +13,7 @@ public class Egzamin1Application {
     /*
     TODO
 
-        Spraw żeby wszystkie testy przeszły dodając 1 linijkę kodu w projekcie.
+        Spraw żeby wszystkie testy przeszły dodając 1 linijkę kodu w projekcie. - 5 pkt
 
      */
 }

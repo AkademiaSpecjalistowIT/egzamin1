@@ -10,4 +10,10 @@ public class Egzamin1Application {
         SpringApplication.run(Egzamin1Application.class, args);
     }
 
+    /*
+    TODO
+
+        Spraw żeby wszystkie testy przeszły dodając 1 linijkę kodu w projekcie.
+
+     */
 }

@@ -1,6 +1,7 @@
 package com.example.egzamin1.controller;
 
 import com.example.egzamin1.dto.OfferDto;
+import com.example.egzamin1.dto.OfferInput;
 import com.example.egzamin1.service.OfferService;
 import java.util.List;
 import lombok.AllArgsConstructor;
@@ -23,7 +24,7 @@ public class OfferController {
     }
 
     @PostMapping
-    public void createOffer(@RequestBody OfferDto offerDto) {
-        offerService.createOffer(offerDto);
+    public void createOffer(@RequestBody OfferInput offerInput) {
+        offerService.createOffer(offerInput);
     }
 }

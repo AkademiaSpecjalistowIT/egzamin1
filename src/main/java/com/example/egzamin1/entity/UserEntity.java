@@ -11,15 +11,15 @@ import lombok.NoArgsConstructor;
 @Entity
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
-public class OfferEntity {
+public class UserEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private String value;
+    private String name;
 
-    public OfferEntity(String value) {
-        this.value = value;
+    public UserEntity(String name) {
+        this.name = name;
     }
 }
